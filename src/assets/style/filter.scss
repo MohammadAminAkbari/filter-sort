@@ -1,0 +1,31 @@
+.filterBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.filterBtn{
+    font-size: 16px;
+    border: none;
+    background-color: #3b6ed3;
+    color: white;
+    border-radius: 3px;
+    width: 8rem;
+    height: 2rem;
+}
+.fbItem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    h4{
+        margin: 1rem 0;
+    }
+    input{
+        height: 1.5rem;
+    }
+    select{
+        height: 1.85rem;
+        width: 10rem;
+    }
+}
